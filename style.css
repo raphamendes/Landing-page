@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+body{
+  background: linear-gradient(110deg, #6837bf,#ff1493);
+  font-family: Outfit;
+}
+.cabeçalho{
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.imagem-menu{
+  width: 10%;
+}
+.item-menu{
+  padding: 5px;
+  border-right: solid 1px;
+}
+.conteudoprincipal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.conteudo1{
+  border-top: solid 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.imagemcont1{
+  width: 400px;
+}
+.imagemcont2{
+  border-top: solid 1px;
+  width: 400px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.parte1{
+  width: 30%;
+}
+.parte2{
+  width: 30%;
+}
+.titulopag{
+  text-align: center;
+  font-size: 200%;
+}
+.conteudo2{
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rodape{
+  border-top: solid 1px;
+  padding-top: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.imagemrodape{
+  width: 10%;
+}
